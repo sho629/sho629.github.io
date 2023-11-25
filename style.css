@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  background-color:#FFFFFF ;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*
+base style
+*/
+body{
+    font-family: 'Noto Sans JP', "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 15px;
+    color:#333
+}
+
+.wrapper{
+    width:1170px;
+    margin: 0 auto;
+}
+
+
+/*
+top-wrapper
+*/
+.top-wrapper{
+    background-image:url(https://img.freepik.com/free-photo/full-shot-family-silhouette-having-fun-at-sunset_23-2150456255.jpg) ;
+    background-size: cover;
+    height: 850px;
+}
+
+.top-wrapper h1{
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 80px;
+    padding-top: 150px;
+}
+
+
+/*
+header
+*/
+header{
+    height:65px;
+    width:100%;
+    background-color:rgba(255,255,255,0.8);
+    position:fixed;
+    z-index: 10;
+  
+}
+
+
+.header-left{
+    float: left;
+}
+
+.header-logo{
+    display:inline-block;
+    padding-top: 13px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.header-right{
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.list{
+    float: left;
+    margin-right: 15px;
+}
+
+
+
+
+.secoound-wrapper{
+    height: 500px;
+    text-align:center;
+}
+
+
+
+
+.heading{
+    margin:70px 0 30px 0;
+    color:#444444;
+}
+
+.heading h2{
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.item-contents{
+    float: left;
+    width:50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.item-img{
+    height:250px;
+    width:400px;
+}
+
+.item-info{
+    margin-top: 30px;
+    margin-left: 20px;
+    width:400px;
+   
+}
+
+.item{
+    width: 880px;
+    margin: 0 auto;
+}
+
+.memories{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+
+.memories-item{
+    display: flex;
+  
+}
+
+.memories-logo{
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.memories-content img{
+    height: 200px;
+    width:100% ;
+}
+
+.memories-content{
+    margin-left: 15px;
+   
+}
+
+
+
+.present-item{
+    display: flex;
+}
+
+.present{
+    text-align: center;
+}
+
+.present-content img{
+    height:200px;
+    width: 80%;
+}
+
+.present-logo{
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+
+.present-content{
+    width: 50%;
+}
+
+.present-info{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.present{
+    margin-bottom: 50px;
+}
